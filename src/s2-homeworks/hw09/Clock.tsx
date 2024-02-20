@@ -13,9 +13,6 @@ function Clock() {
         // пишут студенты // запустить часы (должно отображаться реальное время, а не +1)
         // сохранить ид таймера (https://learn.javascript.ru/settimeout-setinterval#setinterval)
 
-        // setInterval(() => setDate(new Date()) , 1000)
-        // console.log(typeof a)
-        // setTimerId(setInterval(() => { setDate(new Date()) }, 1000))
         if (timerId) {
            clearInterval(timerId)
         }
